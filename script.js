@@ -49,3 +49,12 @@ document.querySelector("#deactivate-all").addEventListener("click", function (){
 
 // You may notice that your code to enable individual powers (not all at once) is very similar. To keep your code DRY, make one function that will handle activating a power depending on which button is clicked. (Hint: one way to get started is to use event.target.id.split("-") in your function)
 
+// document.querySelector("#activate-flight").addEventListener("click", function (){
+//     const clickEachButton = event.target.id.split("-") 
+//     console.log(clickEachButton)
+//     // document.querySelectorAll(".power")
+//     // console.log(activateFunction)
+//     // for (i = 0; i < activateFunction.length; i++){
+//     //     activateFunction[i].classList.add("enabled")
+//     // }
+// })
